@@ -1,0 +1,237 @@
+/*Navbar*/
+#navbar{
+    background-color: rgb(36, 36, 82);
+}
+#allproduct{
+    width: 300px;
+    height: 40px;
+    padding-top: 4.3px;
+   /* background-color: rgb(2, 158, 255);*/
+}
+.side{
+    margin-left:480px
+}
+#headerbtn.btn{
+    background-color: orange;
+    color: white;
+    /*margin-left:500px;*/
+}
+#headerbtn.btn:hover{
+    background-color: white;
+    color: orange;
+}
+#headerbtm.btn {
+    background-color: white;
+    color: black;
+}
+#headerbtm.btn:hover{
+    background-color: green;
+    color:white
+}
+
+#headerbtm{
+    padding:6px 20px 5px;
+    margin-left: 20px;
+}
+/*Navbar Ends*/
+
+/*Boxes*/
+#slider{
+    background-color:rgb(41, 41, 75);
+     padding-top: 50px; 
+     height: 500px;
+}
+#searchbox{
+    padding:10px 280px ; 
+    margin-left:300px;
+     margin-top: 10px;
+}
+.box{
+    position:relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.box:hover{
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #fff;
+    content: ""; 
+    position: relative;  
+}
+
+
+/*.img-fluid{
+    width: 50px;
+    height: 50px;
+}*/
+
+
+/*Cards*/
+#stars{
+    color: rgb(255, 168, 6);
+}
+#rocket{
+    color: orangered;
+}
+#rocketlight{
+    color: rgb(241, 128, 87);
+}
+#rocketfade{
+    color: rgb(253, 208, 192);
+}
+#detailbtn{
+    background-color: silver;
+    width: 130px;
+}
+#detailbtm{
+    width: 130px;
+}
+#detailbtn:hover{
+    background-color: rgb(130, 130, 130);
+    color: white;
+}
+/*Advertisement*/
+#advertisement{
+    width: 1000px;
+     height:270px ; 
+     background-color: rgb(0, 123, 255); 
+     margin-left: 160px;
+}
+#adtext{
+    padding-top: 8px;
+    color: white;
+    font-weight: 150px;
+}
+#adbtn{
+    background-color: white; 
+    color: black;
+    width: 240px;
+    margin-top:16px ;
+}
+#adbtn:hover{
+    background-color: green;
+    color: white;
+}
+.adcard1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#adbtn1{
+    width: 190px;  
+}
+/*Recently Added btn*/
+#tabbtn{
+    height:50px ;
+    width: 205px;
+    background-color: rgba(255, 255, 255, 0.698);
+    border: 1px solid rgb(147, 147, 147);
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#digital{
+    text-align:center; 
+    text-align: justify; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*adbox2*/
+#adbox2{
+    height: 250px;
+    background-image: linear-gradient(96.44deg, rgb(197, 213, 255), rgb(226, 255, 234) 51.56%, rgb(189, 243, 204));
+}
+.subsbox{
+    width: 700px;
+    margin-left: 330px;
+}
+/*adbox3*/
+.subbox{
+    width: 400px;
+}
+
+/*Boxes*/
+#icons{
+    position:relative;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 60px;
+   padding: 7px;
+}
+#icons:hover{
+border-radius: 6px;
+box-shadow: 0 0 0 2px #fff;
+content: ""; 
+position: relative; 
+background-color: purple; 
+}
+
+
+
+/*
+=================
+Media screen
+=================
+*/
+@media screen and (max-width: 390px){
+   
+    #allproduct {
+        width: 215px;
+        height: 40px;
+        padding-top: 4.3px;
+        text-align: center;
+        padding-left: 15px;
+}
+#response{
+    display: none;
+}
+ /*orange and green btn*/
+ .side{
+    margin-left: 0px;
+    margin-top: 5px;
+ }
+ #headerbtm.btn {
+    width: 215px;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+/*sliderboxes*/
+#slider{background-color:rgb(41, 41, 75); 
+padding-top: 50px;
+height: 900px;
+}
+#searchbox{
+    padding:10px 80px ; 
+    margin-left:6px;
+     margin-top: 12px;
+}
+
+/*Card*/
+   .card{margin-top: 20px;
+    margin-left: 0px !important;
+}
+
+/*advertisement*/
+#advertisement{
+    width: 350px;
+     height:1200px ; 
+     background-color: rgb(0, 123, 255); 
+     margin-left:0px;
+}
+/*subsbox*/
+.subsbox{
+        margin-left: 0px;
+        width: 350px;
+}
+#basic-addon2{
+    width: 100px;
+}
+#digital{
+     padding-left: 0px;
+     
+}
+}

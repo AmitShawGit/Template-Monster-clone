@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Monster</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="template.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <a class="navbar-brand" href="#">
+      <div class="btn btn-primary" id="allproduct"><i class="bi bi-windows" style="padding:0px 30px;" id="response"></i>All Products<i
+          class="bi bi-caret-down-fill" style="padding: 0px 55px;"></i></div>
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list" style="color:white ;"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="side">
+        <div class="btn" id="headerbtn"><i class="bi bi-meta" style="padding-right:20px ;"></i>Unlimited Downloads</div>
+
+        <div class="btn btn-primary" id="headerbtm"><i class="bi bi-wallet2" style="margin-right:10px ;"></i>Start
+          Selling</div>
+        <i class="bi bi-heart" style="color:white; padding-left: 20px;" id="topicon"></i>
+        <i class="bi bi-person" style="color:white; padding-left: 20px;"></i>
+        <i class="bi bi-cart" style="color:white; padding-left: 20px;"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!--Slider-->
+  <div class="container-fluid" id="slider" >
+    <h3 style="color:white ; text-align:center">Website Templates, Plugins, and Graphic Digital Marketplace</h3>
+    <h5 style="color:white ; text-align:center; margin-top:20px ;">Best place to buy and sell digital products</h5>
+    <input type="text" placeholder="e.g.Wordpress"  id="searchbox">
+
+
+    <div>
+      <a class="box" href="#" style="margin-left:17% ;">
+        <img src="https://i.pinimg.com/originals/ce/8e/0b/ce8e0bf9fab11588bb3e04277e51bbe6.png" alt=""
+          class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">Wordpress</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.bI8KDjd8-nDvzTX_Uok7FwHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7" alt=""
+          class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">HTML</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.v7YqdYNctsBliZBi1YE0FAHaHv?w=163&h=180&c=7&r=0&o=5&pid=1.7" alt=""
+          class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">Shopify</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.FxBl9JTSjAyhvyTmGPADZwHaHa?pid=ImgDet&rs=1" alt="" class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">WooPress</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.CI8LE4140TUxVu_XfN5UXAHaHa?pid=ImgDet&rs=1" alt="" class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">Pretashop</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.Pq6IUAEIaVnfQ84SXTZOZAHaHa?pid=ImgDet&w=512&h=512&rs=1" alt=""
+          class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">Joomla</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.3NGs3fdDf2UDhOWZBaoJcQHaHa?pid=ImgDet&w=640&h=640&rs=1" alt=""
+          class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">Powerpoint</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.lj5P6J3WWN5ytLH48d96_gAAAA?pid=ImgDet&rs=1" alt="" class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">Services</p>
+      </a>
+      <a class="box" href="#">
+        <img src="https://th.bing.com/th/id/OIP.r4r8ZGOiLhqu3KUKycQIXAHaHa?w=220&h=220&c=7&r=0&o=5&pid=1.7" alt=""
+          class="img-fluid">
+        <p style="color:white ; margin-top: 15px;">SaveUkraine</p>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="container-fluid" style="background-color:rgba(177, 210, 245, 0.732) ;">
+    <br><br><br>
+    <h4 style="text-align:center;">Trending</h4><br>
+    <p style="text-align:center;">Check the hotest website designs of the week. This rising stars are worth your
+      attention.</p>
+    <br>
+    <!-- trendings-->
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+
+        <!-- card one -->
+
+        <div class="card" style="width: 23rem; margin-left:30px ;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/62200/monstroid2-multipurpose-modular-wordpress-elementor-theme_62222-12-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Monstroid2 - Multipurpose Modular WordPress Elementor Theme
+              by ZEMEZ</p>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            17,312 Sales <span style="padding-left: 180px ;">$95</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-4">
+
+        <!-- card2 -->
+
+        <div class="card" style="width: 23rem;margin-left: 10px; ">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/220500/poket-business-and-multipurpose-responsive-wordpress-theme_220512-3-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Pocket Business and Multipurpose Responsive by WPEXPERT</p>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            252 Sales <span style="padding-left: 200px ;">$38</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+
+        <!--card3-->
+
+        <div class="card" style="width: 23rem;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/58800/multipurpose-intense-1-html-bootstrap-website-template_58888-6-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Multipurpose Intense-#1HTML Bootstrap We by ZEMEZ</p>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            4,286 Sales <span style="padding-left: 190px ;">$77</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+    <!--Advertisement1-->
+    <div class="row" id="advertisement">
+      <div class="col-md-3" id="adtext">
+        <h1>Monster</h1>
+        <ul>
+          <li>200k+ Premium Products</li>
+          <li>Simple Commercial License</li>
+          <li>1-Year support</li>
+          <li>New Products Weekly</li>
+        </ul>
+        <div class="btn" id="adbtn">Join Now for <span style="color:red ;">$7/mo.</span></div>
+      </div>
+      <!--CARD1-->
+      <div class="col-md-3">
+
+        <div class="adcard1">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Website Templates</h5>
+              <p class="card-text">WordPress,HTML,CMS & E-Commerce Themes</p>
+
+              <p><span style="color:rgb(255, 0, 0) ;">9000</span>items <br>+108 added this week</p>
+
+              <a href="#" class="btn btn-primary text-light" id="adbtn1">View All</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!--CARD2-->
+      <div class="col-md-3">
+
+        <div class="adcard1">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Presentation</h5>
+              <p class="card-text">Powerpoint, Google & Keynote Presentatiom</p>
+
+              <p><span style="color:rgb(255, 0, 0) ;">11498</span>items <br>+94 added this week</p>
+
+              <a href="#" class="btn btn-primary text-light" id="adbtn1">View All</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--CARD3-->
+      <div class="col-md-3">
+
+        <div class="adcard1">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Graphics</h5>
+              <p class="card-text">PSD Files, Logos, Illustration, Icons, Fonts, </p>
+
+              <p><span style="color:rgb(255, 0, 0) ;">130984</span>items <br>+1135 added this week</p>
+
+              <a href="#" class="btn btn-primary text-light" id="adbtn1">View All</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <!--Best Sellers-->
+    <br><br><br>
+    <h4 style="text-align:center;">Best Sellers</h4><br>
+    <p style="text-align:center;">Top websites templates with the highest sales volume.</p>
+    <br>
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+
+        <!-- card one -->
+
+        <div class="card" style="width: 23rem; margin-left:30px ;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/90400/busup-engaging-and-inspiring-public-speaker-website-wordpress-theme_90400-3-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">BusUo- Engaigin And Ispiring Public Speaker by Zemez</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+
+            <span class="btn btn-primary"
+              style=" color: white; border-radius:50px; height: 30px; margin-left:150px">One</span>
+            136 Sales <span style="padding-left: 200px ;">$77</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-4">
+
+        <!-- card2 -->
+
+        <div class="card" style="width: 23rem;margin-left: 10px; ">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/63900/adverting-advertising-agency-responsive-wordpress-theme_63935-3-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Adverting- Advertising Agency Responsive we.. by ZEMEZ</p>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketfade" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketlight"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            252 Sales <span style="padding-left: 200px ;">$38</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+
+        <!--card3-->
+
+        <div class="card" style="width: 23rem;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/53500/buildwall-construction-company-multipurpose-wordpress-theme_53591-24-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Buildwall-Construction Company Multipurpose by ZEMEZ</p>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <i class="bi bi-star-fill" id="stars"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            1,778 Sales <span style="padding-left: 190px ;">$94</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Featured-->
+    <br><br><br>
+    <h4 style="text-align:center;">Featured</h4><br>
+    <p style="text-align:center;">Look through the best website designs hand-picked by our expert review team.</p>
+    <br>
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+
+        <!-- card one -->
+
+        <div class="card" style="width: 23rem; margin-left:30px ;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/234900/saasi-saas-amp-software-startup-html-template_234930-original.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Saasi-Saas& Software Startup HTML and CSS with Java Script</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+
+            <span class="btn btn-primary"
+              style=" color: white; border-radius:50px; height: 30px; margin-left:160px">One</span>
+            1 Sales <span style="padding-left: 220px ;">$38</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-4">
+
+        <!-- card2 -->
+
+        <div class="card" style="width: 23rem;margin-left: 10px; ">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/234100/nextapp-onepage-application-marketing-landing-page_234191-2-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">NextApp- Onepage Application Marketing Language</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketfade" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketlight"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            <span style="padding-left: 280px ;">$23</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+
+        <!--card3-->
+
+        <div class="card" style="width: 23rem;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/234800/dentist-plus-dental-care-amp-services-shopify-theme_234859-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Dentist plus- Dental care & Services by Zemez and saussa</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketfade" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketlight"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            1,778 Sales <span style="padding-left: 190px ;">$52</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Recently Added-->
+    <br><br><br>
+    <h4 style="text-align:center;">Recently Added</h4><br>
+    <p style="text-align:center;">Meet our newbies! The latest website templates uploaded to the marketplace.</p>
+    <br>
+    <!--Buttons-->
+    <button class="btn" id="tabbtn" style="background-color:rgb(0, 183, 255);color: white;">WordPress Themes</button>
+    <button class="btn" id="tabbtn">HTML Website</button>
+    <button class="btn" id="tabbtn">WooCommerce Themes</button>
+    <button class="btn" id="tabbtn">Shopify Themes</button>
+    <button class="btn" id="tabbtn">Powerpoint Templates</button>
+    <button class="btn" id="tabbtn">Landing Page Templates</button>
+    <button class="btn" id="tabbtn">CMS Templates</button>
+    <button class="btn" id="tabbtn">Graphics</button>
+    <button class="btn" id="tabbtn">Elementor Kits</button>
+    <button class="btn" id="tabbtn">Prestashop Themes</button>
+    <br><br><br>
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+
+        <!-- card one -->
+
+        <div class="card" style="width: 23rem; margin-left:30px ;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/266600/charit-hungry-foundation-responsive-wordpress-theme_266681-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Charit- Hungry Foundation Responsive Wordpress</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+
+
+            <span style="padding-left:280px ;">$38</span>
+            <br><br>
+            <div style="padding-top:6px ;">
+              <a href="#" class="btn" id="detailbtn">Detail</a>
+              <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-4">
+
+        <!-- card2 -->
+
+        <div class="card" style="width: 23rem;margin-left: 10px; ">
+          <img
+            src="https://s.tmimgcdn.com/scr/800x500/266600/atrans-logistics-and-transport-wordpress-theme_266685-original.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Atrans-Logistics and transport WordPress Themes</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <!--rocket -->
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketfade" style="padding-left:100px ;"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocketlight"></i>
+            <i class="fa fa-rocket" aria-hidden="true" id="rocket"></i>
+            <span class="btn btn-primary" style=" color: white; border-radius:50px; height: 30px;">One</span>
+            <span style="padding-left: 280px ;">$23</span>
+            <br><br>
+            <a href="#" class="btn" id="detailbtn">Detail</a>
+            <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+
+        <!--card3-->
+
+        <div class="card" style="width: 23rem;">
+          <img
+            src="https://s.tmimgcdn.com/scr/400x250/266600/volleycup-volleyball-club-wordpress-theme_266684-original.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+
+            <p class="card-text">Volleycup - Volleyball Club Wordpress Theme by Zemez</p>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+            <i class="bi bi-star" id="star"></i>
+
+            <span style="padding-left:280px ;">$38</span>
+            <br><br>
+            <div style="padding-top:6px ;">
+              <a href="#" class="btn" id="detailbtn">Detail</a>
+              <a href="#" class="btn btn-primary" id="detailbtm" style="margin-left:50px ;">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <br>
+      </div>
+
+    </div>
+  </div>
+
+  <!--adbox2-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" id="adbox2">
+        <h3 style="color:rgb(0, 0, 0) ; text-align:center; margin-top: 25px;">Join Our Weekly Newsletter</h3>
+        <p style="color:rgb(0, 0, 0) ; text-align:center;">Get new products, freebies, and news to your inbox.</p>
+
+        <div class="subsbox">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+              aria-describedby="basic-addon2" id="searchbox2">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2"
+                style="background-color:rgb(0, 183, 255);padding-right: 150px; color: white;"><span
+                  style="padding-left:50px ;">Subscribe</span></span>
+            </div>
+          </div>
+        </div>
+
+        <p style="color:rgb(0, 0, 0) ; text-align:center; margin-top: 25px;">By clicking the button you agree to the
+          <span style="color:rgb(4, 169, 234) ;">Privacy Policy</span> and <span style="color:rgb(4, 169, 234) ">Terms
+            and Conditions</span>
+        </p>
+
+      </div>
+
+    </div>
+
+    <!--Customer Review-->
+    <br><br><br>
+    <h4 style="text-align:center;">Template Monster - Digital Design Marketplace</h4><br>
+    <p id="digital">TemplateMonster is a
+      large and growing marketplace where you can find high-quality digital products matching the latest web standards.
+      The collection of items includes a wide choice of website templates suitable for all kinds of niche-specific
+      projects, small or large companies, startups, and any other kind of business that you happen to run. There are
+      premium-quality and free website designs that you can download for your creative web project. The marketplace
+      includes Bootstrap-based website templates, HTML5 and CSS3 ready-made solutions, website templates loaded with a
+      website builder, and more.</p>
+    <br>
+    <!--We Love Wordpress-->
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+        <br>
+        <h4>We Love WordPress</h4>
+        <p>TemplateMonster digital marketplace also includes a wide choice of CMS and WordPress themes. Ready-made
+          blogging and business themes come in different designs and styles. Most of them are fully responsive and 100%
+          customizable items. In our <span style="color:rgb(0, 183, 255) ;">WordPress store</span>, you can come across
+          many striking templates for Elementor page builder, as well as WordPress plugins and WooCommerce themes.</p>
+      </div>
+      <div class="col-md-4">
+        <br>
+        <img src="https://www.templatemonster.com/assets/images/home-description-1.png?v=1" alt="" class="img-fluid">
+      </div>
+    </div>
+
+    <!--Breathtaking Graphics & Presentations-->
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+        <br>
+        <img src="https://www.templatemonster.com/assets/images/home-description-3.png?v=1" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <br>
+        <h4>Breathtaking Graphics & Presentations</h4>
+        <p>On TemplateMonster digital marketplace, you will find a wide <span style="color:rgb(0, 183, 255) ;">selection
+            of high-quality graphics </span>that can add a breathtaking visual appeal to your site. We offer collections
+          of icons and logo designs, stunning UI elements, animated banners, fonts, after effects, etc. We offer
+          everything that you need to establish a reputable brand identity and make your brand stand out. Additionally,
+          we have stunning presentation templates for PowerPoint, Keynote, and Google Slides, as well as visuals for
+          online marketing campaigns.</p>
+      </div>
+    </div>
+
+    <!--E Commerce-->
+    <div class="row justify-content-around">
+      <div class="col-md-4">
+        <br>
+        <h4>Ecommerce Is Our Passion</h4>
+        <p>If you need ready-made solutions for the development of eCommerce projects, the marketplace features
+          eCommerce themes for all popular platforms. We include Shopify, Magento, PrestaShop, OpenCart, VirtueMart,
+          MotoCMS eCommerce, and more. Every<span style="color:rgb(0, 183, 255) ;"> eCommerce template</span> is created
+          with the latest web development techniques in mind. The ready-made eCommerce designs represent professional
+          combinations of designs and functionality. They feature all the essential elements needed to create
+          conversions-oriented websites. The download packages include shopping cart variations, ready-made product and
+          category pages, user-friendly navigation styles, advanced search options, smart filters, and other functions
+          that make eCommerce themes in the TemplateMonster digital marketplace stand out among the competitors.</p>
+      </div>
+      <div class="col-md-4">
+        <br><br><br>
+        <img src="https://www.templatemonster.com/assets/images/home-description-2.png?v=1" alt="" class="img-fluid">
+      </div>
+    </div>
+    <br><br>
+    <!--Last Para-->
+    <p style=" padding-left:0px;padding-right: 0px;">In a word,
+      TemplateMonster digital marketplace features all that you need to launch a unique and competitive web project.
+      Browse the collection of our website designs, CMS and eCommerce themes, as well as stunning graphics to choose
+      items that will be the perfect fit for your projects.</p>
+    <br><br>
+    <button class="btn"
+      style="background-color: rgb(3, 100, 255); margin-left: 500px; color: white; padding-left: 50px; padding-right: 50px; margin-bottom: 20px;">Browse
+      all products</button>
+    <!--Adbox3-->
+
+    <div class="row">
+      <div class="col-md-12" id="adbox2">
+        <h3 style="color:rgb(0, 0, 0) ; text-align:center; margin-top: 25px;">Join Our Weekly Newsletter</h3>
+        <p style="color:rgb(0, 0, 0) ; text-align:center;">Get new products, freebies, and news to your inbox.</p>
+
+        <div class="subsbox">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2"
+                style="background-color:rgb(0, 183, 255);padding-right: 150px; color: white;"><span
+                  style="padding-left:50px ;">Subscribe</span></span>
+            </div>
+          </div>
+        </div>
+
+        <p style="color:rgb(0, 0, 0) ; text-align:center; margin-top: 25px;">By clicking the button you agree to the
+          <span style="color:rgb(4, 169, 234) ;">Privacy Policy</span> and <span style="color:rgb(4, 169, 234) ">Terms
+            and Conditions</span>
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+<!--Footer-->
+<div class="container-fluid" style="background-color:rgb(55, 55, 55) ; color: white;">
+  <br><br><br>
+  <div class="row justify-content-around">
+    <br>
+    <div class="col-md-3">
+      <h5>Template Monster</h5>
+      <p>TemplateMonster is a marketplace where you can buy everything you need to create a website. Hundreds of independent developers sell their products here so that you could create your own unique project.</p>
+       
+      <!--Icons-->
+      
+      <i class="bi bi-instagram" id="icons"></i>
+      <i class="bi bi-facebook"  id="icons"></i>
+      <i class="bi bi-youtube"   id="icons"></i>
+      <i class="bi bi-twitter"   id="icons"></i>
+      <i class="bi bi-pinterest" id="icons"></i>
+
+    </div>
+    <div class="col-md-2">
+      <h5 style="padding-left:40px ;">Products and Partners</h5>
+<ul>
+WordPress Themes
+WooCommerce Themes
+HTML5 Templates
+Shopify Themes
+Zemez
+Crocoblock
+MotoCMS
+Weblium
+MotoPress
+MonsterONE
+Novi Builder
+Web Design Library
+</ul>
+    </div>
+    <div class="col-md-2">
+      <h5>Topics</h5>
+
+Business & Services
+Fashion & Beauty
+Home & Family
+Design & Photography
+Real Estate
+Cars & Motorcycles
+Medical
+Sports, Outdoors & Travel
+Food & Restaurant
+Electronics
+    </div>
+    <div class="col-md-2">
+      Company
+
+<h5>About Us</h5>
+Licenses
+Blog
+Promocodes
+Best Website Hosting
+Affiliate Program
+Service Center
+Partners' Coupon Codes
+Certification Center
+Contact Us
+Gift Card
+Monster's Award
+    </div>
+    <div class="col-md-1">
+      <h5>Support</h5>
+
+Help Center
+Report Spam
+Sitemap
+Knowledgebase
+Become an author
+Refund Policy
+    </div>
+  </div>
+  <br><br>
+</div>
+
+</body>
+
+</html>
